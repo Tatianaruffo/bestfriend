@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    color: #56423D;
+}
+
+/* headings and logo */
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #87957C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1, h2 {
+    font-family: Inter, sans-serif;
+    letter-spacing: 2px;
+    color: #3B3D22;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin:20px 0 0 30px;
+    position: absolute; 
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 90%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 44px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #000000;
+    font-style: italic;
+}
+
+.active {
+    border-bottom: 1px solid #F2CDC3;
+}
+
+/* first section*/
+
+#first-section {
+    height: 600px;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+#hero-image {
+    background: url(../images/hero.jpg) no-repeat center center;
+    width: 400px;
+    /* max-width: 400px; */
+    height: 585px;
+    
+    object-fit: contain;
+}
