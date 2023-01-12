@@ -164,6 +164,7 @@ img {
     height: 10%;
     min-height: 150px;
     background-color: #F2CDC3;
+    text-align: center;
 }
 
 #container-footer h3 {
@@ -194,6 +195,5 @@ img {
     grid-column: 3;
     grid-area: right;
     margin-top: 6%;
-    margin-left: 70%;
 }
 
