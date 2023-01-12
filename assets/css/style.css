@@ -70,17 +70,9 @@ h1, h2 {
     margin-top: 4%;
 }
 
-nav {
-    display: block;
-}
-
 #menu {
     font-size: 90%;
     letter-spacing: 2px;
-}
-
-#menu, #logo {
-    line-height: 44px;
 }
 
 #menu li {
