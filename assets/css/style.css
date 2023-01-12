@@ -12,16 +12,48 @@ body {
     color: #56423D;
 }
 
-/* headings and logo */
+/* header - logo and nav */
 
-header {
-    position: absolute;
+#parent-header {
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-column: 2;
     width: 100%;
-    height: 150px;
-    left: 0px;
-    top: 0px;
-    background: #87957C;
+    height: 10%;
+    min-height: 150px;
+    background-color: #87957C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.child-logo {
+    grid-column: 1;
+    grid-area: left;
+    margin-top: 3%;
+}
+
+.child-links {
+    grid-column: 2;
+    grid-area: right;
+    margin-top: 6%;
+}
+
+#logo {
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#menu {
+    float: right;
+}
+
+#menu>li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
 }
 
 h1, h2 {
@@ -30,14 +62,17 @@ h1, h2 {
     color: #3B3D22;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin:20px 0 0 30px;
-    position: absolute; 
+/* navigation links */
+
+.child-links {
+    grid-column: 2;
+    grid-area: right;
+    margin-top: 4%;
 }
 
-/* navigation links */
+nav {
+    display: block;
+}
 
 #menu {
     font-size: 90%;
@@ -49,9 +84,7 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
 }
 
 #menu a {

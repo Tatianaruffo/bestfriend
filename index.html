@@ -12,28 +12,36 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Best <br> Friend.ie</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#">Adopt</a>
-                </li>
-                <li>
-                    <a href="#">Happy Stories</a>
-                </li>
-                <li>
-                    <a href="#">About us</a>
-                </li>
-                <li> 
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
+        <div id="parent-header">
+            <div class="child-logo">
+                <a href="index.html" aria-label="Click here to go to the Home Page">
+                    <h1 id="logo">Best <br> Friend.ie</h1>
+                </a>
+            </div>
+            <div class="child-links">
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html" class="active" aria-label="Click here to go to the Home Page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Happy Stories</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li> 
+                            <a href="#">Adopt</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
     </header>
     <section id="first-section">
-        <div id="hero-image"></div>
+        <div class="image-container">
+            <img src="assets/images/hero2.jpg" alt="Jack Russell Dog looking to the camera">
+        </div>
         <div id="cover-text">
             <h2>Find your best friend</h2>
             <h3>Because the best things in life are free!</h3>
