@@ -71,17 +71,27 @@ h1, h2 {
 /* first section*/
 
 #first-section {
+    display: block;
+}
+
+.image-container {
     height: 600px;
-    width: 100%;
-    max-width: 600px;
-
+    text-align: center;
+    display: flex;
 }
 
-#hero-image {
-    background: url(../images/hero.jpg) no-repeat center center;
-    width: 400px;
-    /* max-width: 400px; */
-    height: 585px;
-    
-    object-fit: contain;
+.image-container>img {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    text-align: left;
 }
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
