@@ -77,6 +77,8 @@ h1, h2 {
 #menu {
     font-size: 90%;
     letter-spacing: 2px;
+    font-size: 150%;
+    margin-right: 32px;
 }
 
 #menu li {
@@ -154,6 +156,43 @@ img {
     margin-left: 30px;
 }    
 
+/* About us section */
+
+#about-us-container {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.about-us-text {
+    text-align: left;
+    padding: 0;
+    background-color: #87957C;
+    color: #3B3D22;
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.about-box-img {
+    height: 100%;
+    width: 40%;
+    text-align: right;
+    display: flex;
+    background-color: #BEA6A0;
+
+}
+
+.about-us-img {
+    height: 445px;
+    margin: 10 7 10 7;
+    width: 80%;
+    text-align: right;
+    display: flex;
+    object-fit: cover;
+}
+
 /* Footer */
 
 #container-footer{
@@ -177,12 +216,13 @@ img {
     grid-column: 1;
     grid-area: left;
     margin-top: 6%;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 .logo-footer>h2{
     color: #56423D;
     font-size: 25px;
+    text-align: left;
 }
 
 .contact-footer {
@@ -191,9 +231,21 @@ img {
     margin-top: 6%;
 }
 
+.contact-footer p {
+    margin-top: 2%;
+}
+
 .socialmedia-footer {
     grid-column: 3;
     grid-area: right;
     margin-top: 6%;
+    margin-left: 3%;
 }
+
+.socialmedia-footer i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
+}    
 
