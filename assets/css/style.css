@@ -132,14 +132,14 @@ img {
 }
 
 .cover-text>h2 {
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 90px;
+    font-weight: 700;
     margin-left: 30px;
     margin-top: 20px;
 }
 
 .cover-text>h3 {
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 30px;
     margin-top: 40px;
 }
@@ -148,6 +148,7 @@ img {
     background-color: #56423D;
     color: aliceblue;
     font-size: 150%;
+    font-weight: 600;
     border-radius: 23px;
     width: 260px;
     height: 49px;
@@ -155,6 +156,50 @@ img {
     bottom: 100px;
     margin-left: 30px;
 }    
+
+.adopt-button:hover {
+    background-color: aliceblue;
+    color: #56423D;
+}
+
+/* Happy Stories section */
+
+#happy-container {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.happy-img {
+    height: 540px;
+    width: 70%;
+    text-align: left;
+    display: flex;
+    object-fit: cover;
+    border: 40px solid #F2CDC3;
+
+}
+
+.happy-img>h2 {
+    text-transform: uppercase;
+    color: #87957C;
+    letter-spacing: 0.34em;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.happy-text {
+    text-align: right;
+    background-color: #F2CDC3;
+    color: #3B3D22;
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
 
 /* About us section */
 
