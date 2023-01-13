@@ -25,8 +25,7 @@ div {
     width: 100%;
     height: 10%;
     min-height: 150px;
-    background-color: #87957C;
-    border: solid 1px #000000;
+    background-color: #F2CDC3;
 }
 
 .child-logo {
@@ -96,7 +95,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #F2CDC3;
+    border-bottom: 1px solid #87957C;
 }
 
 /* first section with main image/text and button to adopt page*/
@@ -132,14 +131,15 @@ img {
 }
 
 .cover-text>h2 {
-    font-size: 90px;
+    font-size: 500%;
     font-weight: 700;
     margin-left: 30px;
     margin-top: 20px;
 }
 
 .cover-text>h3 {
-    font-size: 50px;
+    font-size: 300%;
+    font-weight: 300;
     margin-left: 30px;
     margin-top: 40px;
 }
