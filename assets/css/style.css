@@ -171,26 +171,17 @@ img {
     background-color: #87957C;
     color: #3B3D22;
     height: 100%;
-    width: 60%;
+    width: 70%;
     position: relative;
 }
 
-.about-box-img {
-    height: 100%;
-    width: 40%;
-    text-align: right;
-    display: flex;
-    background-color: #BEA6A0;
-
-}
-
 .about-us-img {
-    height: 445px;
-    margin: 10 7 10 7;
-    width: 80%;
+    height: 560px;
+    width: 30%;
     text-align: right;
     display: flex;
     object-fit: cover;
+    border: 20px solid #BEA6A0;
 }
 
 /* Footer */
