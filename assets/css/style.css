@@ -180,6 +180,7 @@ img {
     display: flex;
     object-fit: cover;
     padding-left: 2%;
+    flex-direction: column;
 }
 
 .happy-img>img {
