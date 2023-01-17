@@ -38,6 +38,33 @@
             </div>
         </div>    
     </header>
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+            <h2>Book a Visit to your next Best Friend!<i class="fa-regular fa-paw-simple"></i></h2>
+            
+            <label for="name-field" id="name-field">Name and Surname</label> 
+            <input id="name-field" class="text-input" type="text" name="full_name" placeholder="Your full name" required>
+            
+            <label for="email" id="email">Email Address</label> 
+            <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email" required>
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="080 000 0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            
+            <label for="date-time">Preferred meeting Date and Time:</label>
+             <input type="datetime-local" id="date-time" name="date-time">
+            
+             <label for="trail" id="trail">Trail</label>
+            <input id="trail" type="radio" name="running_preference" value="trail" required>
+            
+            <label for="both" id="both">Both</label>
+            <input id="both" type="radio" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
+            
+        </form>
+        
+    </section>
     <footer>
         <div id="container-footer">
             <div class="logo-footer">

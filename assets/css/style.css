@@ -407,6 +407,23 @@ img {
     margin-right: 10%;
 }
 
+.book-button {
+    background-color: #56423D;
+    color: aliceblue;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 23px;
+    width: 213px;
+    height: 34px;
+    bottom: 100px;
+    margin: 10% 0 0 30px;
+}
+
+.book-button:hover {
+    background-color: aliceblue;
+    color: #56423D;
+}
+
 /* Right images */
 
 .right-wrapper {
