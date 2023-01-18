@@ -49,18 +49,27 @@
             <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email" required>
 
             <label for="phone">Phone number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="080 000 0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <input type="tel" id="phone" name="phone" placeholder="080 000 0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             
             <label for="date-time">Preferred meeting Date and Time:</label>
-             <input type="datetime-local" id="date-time" name="date-time">
+            <select id="date-time" name="date-time" required>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+            </select>
+
+            <label for="morning" id="morning">9am to 11am</label>
+            <input id="morning" type="radio" name="time_preference" value="morning" required>
+        
+            <label for="afternoon" id="afternoon">2pm to 4pm</label>
+            <input id="afternoon" type="radio" name="time_preference" value="afternoon" required>
+
+            <label for="about-you" id="about-you">Briefly describe about you and any pets you already have</label>
+            <textarea name="about" rows="10" cols="30"></textarea>
             
-             <label for="trail" id="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail" required>
-            
-            <label for="both" id="both">Both</label>
-            <input id="both" type="radio" name="running_preference" value="both" required>
-            
-            <input class="join-button" type="submit" value="Let's Run!">
+            <input class="join-button" type="submit" value="Meet your Best Friend!">
             
         </form>
         

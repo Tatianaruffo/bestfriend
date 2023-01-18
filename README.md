@@ -92,6 +92,10 @@ https://refine.dev/blog/css-grid-vs-flexbox/
 
 https://michmattera.github.io/newline-alebrije/ -Grid/Flex
 
+https://www.w3schools.com/html/html_form_input_types.asp - Form
+
+https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image - layer background
+
 
 ## Content
 The text for the Home page was taken from Wikipedia Article A
@@ -99,6 +103,6 @@ Instructions on how to implement form validation on the Sign Up page was taken f
 The icons in the footer were taken from Font Awesome
 
 ## Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+Hero image - Victor Grabarczyk Unsplash https://unsplash.com/photos/N04FIfHhv_k
+
+Form Image - Fabian Gieske - Unsplash - https://unsplash.com/photos/AXtlIC-eHjQ
