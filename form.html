@@ -22,13 +22,16 @@
                 <nav>
                     <ul id="menu">
                         <li>
-                            <a href="index.html" class="active" aria-label="Click here to go to the Home Page">Home</a>
+                            <a href="index.html" aria-label="Click here to go to the Home Page">Home</a>
                         </li>
                         <li>
                             <a href="index.html#happy-stories" aria-label="Click here to go to Happy Stories">Happy Stories</a>
                         </li>
                         <li>
                             <a href="index.html#about-us" aria-label="Click here to go to About Us">About us</a>
+                        </li>
+                        <li>
+                            <a href="form.html" class="active" aria-label="Click here to go to Book a Visit">Book a Visit</a>
                         </li>
                         <li> 
                             <a href="adopt.html" aria-label="Click here to go to the Adoption Page">Adopt</a>
@@ -49,7 +52,7 @@
             <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email" required>
 
             <label for="phone">Phone number</label>
-            <input type="tel" id="phone" class="text-input" name="phone" placeholder="080 000 0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="tel" id="phone" class="text-input" name="phone" placeholder="080 000 0000" required>
             
             <label for="date-time">Preferred meeting Date and Time:</label>
             <select id="date-time" class="text-input" name="date-time" required>
@@ -60,15 +63,15 @@
                 <option value="friday">Friday</option>
             </select>
 
-            <label for="morning" id="morning">9am to 11am</label>
             <input id="morning" type="radio" name="time_preference" value="morning" required>
-        
-            <label for="afternoon" id="afternoon">2pm to 4pm</label>
+            <label for="morning" id="morning">9am to 11am</label>
+            <hr>
             <input id="afternoon" type="radio" name="time_preference" value="afternoon" required>
+            <label for="afternoon" id="afternoon">2pm to 4pm</label>
             <br>
             <br>
             <label for="about-you" id="about-you">Briefly describe about you and any pets you already have</label>
-            <textarea name="about" class="text-input" rows="10" cols="30"></textarea>
+            <textarea name="about" class="text-input-about" rows="10" cols="30"></textarea>
             
             <input class="join-button" type="submit" value="Meet your Best Friend!">
             
@@ -93,5 +96,8 @@
             </div>
         </div>
     </footer> 
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/b12d64d354.js" crossorigin="anonymous"></script>
 </body>
 </html>

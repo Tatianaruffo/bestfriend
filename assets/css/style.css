@@ -349,62 +349,45 @@ img {
 
 /* -------- Adopt Page----------------------- */
 
-#adoption-options {
-    background-color: #87957C;
+#adoption {
     display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+    background-color: #87957C;
 }
 
-.left-wrapper {
+#adoption > figure {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 400px;
-    background-color: #87957C; 
-    display: flex;
-    flex: 1 1 600px;
-    justify-content: space-evenly;
-    margin-bottom: 3rem;
+    padding: 2rem 0;
 }
 
-.left-image {
-    margin-top: 6%;
-    height: 400px;
-    width: 20%;
-    background-color: #F2CDC3;
-    flex-direction: column;
-}
-
-.left-image>img {
-    height: 70%;
-    width: 90%;
+#adoption > figure > img {
+    flex: 0 0 36%;
+    height: 90%;
     object-fit: cover;
-    margin: 4% 0 2% 2%;
+    overflow: hidden;
 }
 
-.left-text {
-    margin-top: 6%;
-    height: 100%;
-    width: 40%;
-    background-color: #F2CDC3;
-    flex-direction: column;
+#adoption > figure > figcaption {
+	height: fit-content;
+	margin: 1rem 2rem;
 }
 
-.left-text>h2 {
-    font-size: 2em;
-    margin-top: 2%;
-    font-weight: 700;
-    color: #3B3D22;
+
+#adoption > figure:nth-child(odd) {
+    flex-direction: row;
+    text-align: left;
 }
 
-.left-text>h3 {
-    font-weight: 700;
-    color: #87957C;
-}
-
-.left-text>p {
-    font-weight: 500;
-    color: #56423D;
-    margin-right: 10%;
+#adoption > figure:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+    background-color: rgba(190, 166, 160, 0.5);
 }
 
 .book-button {
@@ -424,72 +407,20 @@ img {
     color: #56423D;
 }
 
-/* Right images */
-
-.right-wrapper {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex: 1 1 600px;
-    justify-content: space-evenly;
-    margin-bottom: 3rem;
-}
-
-.right-image {
-    margin-top: 6%;
-    height: 400px;
-    width: 20%;
-    background-color: #F2CDC3;
-    flex-direction: column-reverse;
-}
-
-.right-image>img {
-    height: 70%;
-    width: 90%;
-    object-fit: cover;
-    margin: 4% 0 2% 2%;
-}
-
-.right-text {
-    margin-top: 6%;
-    height: 100%;
-    width: 40%;
-    background-color: #F2CDC3;
-    flex-direction: column-reverse;
-}
-
-.right-text>h2 {
-    font-size: 2em;
-    margin-top: 2%;
-    font-weight: 700;
-    color: #3B3D22;
-}
-
-.right-text>h3 {
-    font-weight: 700;
-    color: #87957C;
-}
-
-.right-text>p {
-    font-weight: 500;
-    color: #56423D;
-    margin-right: 10%;
-}
-
 /* --------------- Form ---------------- */
 
 .form-section {
     /* clear: left; */
     background: linear-gradient(rgba(135, 149, 124, 0.6), rgba(135, 149, 124, 0.6)), url(../images/form-image-trial.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 700px;
+    height: 900px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #56423D;
     font-weight: 700;
-    background-color: rgba(190, 166, 160, 0.6);
+    background-color: rgba(190, 166, 160, 0.8);
     max-width: 600px;
     position: absolute;
     left: 50%;
@@ -504,9 +435,19 @@ img {
 
 .text-input {
     background: rgba(255, 255, 255, 0.6);
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input-about {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    width: 100%;
+    height: 150px;
     margin: 5px 0 20px;
     border: 1px solid #fafafa;
     border-radius: 2px;
