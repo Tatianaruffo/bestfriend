@@ -106,3 +106,7 @@ The icons in the footer were taken from Font Awesome
 Hero image - Victor Grabarczyk Unsplash https://unsplash.com/photos/N04FIfHhv_k
 
 Form Image - Fabian Gieske - Unsplash - https://unsplash.com/photos/AXtlIC-eHjQ
+
+Adoption photos
+
+Fudge - Jamie Street - Unsplash https://unsplash.com/photos/UtrE5DcgEyg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

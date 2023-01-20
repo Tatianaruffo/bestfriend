@@ -350,44 +350,90 @@ img {
 /* -------- Adopt Page----------------------- */
 
 #adoption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    max-width: 100%;
+    height: 90%;
+    margin: auto;
     padding-top: 3%;
     background-color: #87957C;
 }
 
-#adoption > figure {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    padding: 2rem 0;
+.adoption-box {
+    width: 33%;
+    height: 600px;
+    float: left;
+    background-color: #87957C;
+    padding: 50px 0 0 10px;
+    text-align: bottom;
+    font-size: 150%;
+    font-weight: 500;
+    color: #56423D;
+    box-sizing: border-box;
+    border: 25px solid #87957C;
 }
 
-#adoption > figure > img {
-    flex: 0 0 36%;
-    height: 90%;
-    object-fit: cover;
+.backcolor-text {
+    background-color: rgba(242, 205, 195, 0.2);
+    border-radius: 4%;
+    opacity: 0.2;
+}
+.backcolor-text:hover {
+    background-color: rgba(242, 205, 195, 0.6);
+    border-radius: 4%;
+    opacity: 1;
+}
+
+#meghan {
+    background-image: url(../images/meghan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
     overflow: hidden;
 }
 
-#adoption > figure > figcaption {
-	height: fit-content;
-	margin: 1rem 2rem;
+#leo {
+    background-image: url(../images/leo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-
-#adoption > figure:nth-child(odd) {
-    flex-direction: row;
-    text-align: left;
+#suzy {
+    background-image: url(../images/suzy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-#adoption > figure:nth-child(even) {
-    flex-direction: row-reverse;
-    text-align: right;
-    background-color: rgba(190, 166, 160, 0.5);
+#daphne {
+    background-image: url(../images/daphne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#stoney {
+    background-image: url(../images/stoney.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#fudge {
+    background-image: url(../images/fudge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .book-button {
