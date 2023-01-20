@@ -351,15 +351,16 @@ img {
 
 #adoption {
     max-width: 100%;
-    height: 90%;
-    margin: auto;
-    padding-top: 3%;
+    justify-content: center;
+    padding: 3%; 
     background-color: #87957C;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .adoption-box {
-    width: 33%;
-    height: 600px;
+    width: 30%;
+    height: 500px;
     float: left;
     background-color: #87957C;
     padding: 50px 0 0 10px;
@@ -368,7 +369,8 @@ img {
     font-weight: 500;
     color: #56423D;
     box-sizing: border-box;
-    border: 25px solid #87957C;
+    margin: 1%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .backcolor-text {
@@ -456,7 +458,6 @@ img {
 /* --------------- Form ---------------- */
 
 .form-section {
-    /* clear: left; */
     background: linear-gradient(rgba(135, 149, 124, 0.6), rgba(135, 149, 124, 0.6)), url(../images/form-image-trial.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 900px;
