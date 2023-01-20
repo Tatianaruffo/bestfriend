@@ -363,7 +363,7 @@ img {
     height: 500px;
     float: left;
     background-color: #87957C;
-    padding: 50px 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: bottom;
     font-size: 150%;
     font-weight: 500;
@@ -373,13 +373,36 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.backcolor-text {
-    background-color: rgba(242, 205, 195, 0.2);
-    border-radius: 4%;
-    opacity: 0.2;
+.adoption-box>h2 {
+    top: 2rem;
+    left: 2rem;
+    color: aliceblue;
 }
+
+.adoption-box>button {
+    top: 20rem;
+    left: 2rem; 
+}
+
+.backcolor-text {
+    background-color: rgba(242, 205, 195, 0);
+    border-radius: 4%;
+    opacity: 0;
+}
+
+.backcolor-text>h3 {
+    font-size: 20px;
+    color: #87957C;
+}
+
+.backcolor-text>p {
+    font-size: 18px;
+    color: #56423D;
+    font-weight: 600;
+}
+
 .backcolor-text:hover {
-    background-color: rgba(242, 205, 195, 0.6);
+    background-color: rgba(242, 205, 195, 0.7);
     border-radius: 4%;
     opacity: 1;
 }
@@ -446,7 +469,7 @@ img {
     border-radius: 23px;
     width: 213px;
     height: 34px;
-    bottom: 100px;
+    /* bottom: 100px; */
     margin: 10% 0 0 30px;
 }
 
