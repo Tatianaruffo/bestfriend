@@ -388,6 +388,8 @@ img {
     background-color: rgba(242, 205, 195, 0);
     border-radius: 4%;
     opacity: 0;
+    width: 90%;
+    height: 50%;
 }
 
 .backcolor-text>h3 {
@@ -403,7 +405,7 @@ img {
 
 .backcolor-text:hover {
     background-color: rgba(242, 205, 195, 0.7);
-    border-radius: 4%;
+    border-radius: 2%;
     opacity: 1;
 }
 
@@ -469,8 +471,7 @@ img {
     border-radius: 23px;
     width: 213px;
     height: 34px;
-    /* bottom: 100px; */
-    margin: 10% 0 0 30px;
+    margin: 30% 0 0 20px;
 }
 
 .book-button:hover {
