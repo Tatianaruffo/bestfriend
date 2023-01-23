@@ -74,9 +74,9 @@ The fonts used are from [Google Fonts](https://fonts.google.com/).
 
 ### Colour Palette 
 
-<img src="./readme-assets/images/colour-palette.png" alt="Colour Palette" width="40%" height="40%">
+<img src="./documentation/readme-images/colour-palette.JPG" alt="Colour Palette" width="40%" height="40%">
 
-Colour palette was generated using [Coolors](https://coolors.co/).
+Colour palette was generated using [ColorSpace](https://mycolor.space/).
 
 #### Primary Colour:
 #87957C
