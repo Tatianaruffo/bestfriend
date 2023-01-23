@@ -1,14 +1,96 @@
-# Best Friend.ie
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+<h1 align="center">Best Friend.ie</h1>
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+[View the live project here]
 
 ## Responsice Mockup
 
-## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Best Friend.ie is a Dog rescue shelter webpage to find new homes for rescued dogs in Ireland. The site describes the personality of each dog to help people looking for a new dog friend to connect.
 
-### Existing Features
+The website has 3 pages, the main one helps the user to trust the shelter telling about the story of the shelter and happy stories of previous adoptions, the second page is a list of dogs available for adoption, you can read about their story and personalities. The last page is dedicated for the user to book a visit to the shelter.
+
+## Contents
+
+- [User Experience](#user-experience)
+  - [Users Stories](#users-stories)
+     - [Site Owner Goals](#site-owner-goals)
+     - [Users Goals](#users-goals)
+- [Design](#design)
+  - [Prototype](#prototype)
+  - [Typepgraphy](#typography)
+    - [Primary Font](#primary-font)  
+  - [Colour Palette](#colour-palette)
+    - [Primary Colour](#primary-colour) 
+    - [Dark Colour](#dark-colour) 
+    - [White Colour](#white-colour) 
+- [Features](#features)
+  - [Header](#header)
+  - [About Section](#about-section)
+  - [Portfolio Section](#portfolio-section)
+  - [Contact Section](#contact-section)
+  - [Footer](#footer)
+- [Testing](#testing)
+  - [Browsers](#browsers)
+  - [Lighthouse](#lighthouse)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Resources](#resources)
+
+## User Experience
+
+# Users Stories
+
+#### Site Owner Goals
+- I want users to easily navigate the website
+- I want user to book visits to the shelter 
+- I want users to see our history 
+- I want users to see happy adoptions stories
+- I want the user to connect with a dog through their stories
+
+#### Users Goals
+- I want to learn about the shelter
+- I want to know about previous adoptions stories
+- I want to visit the shelter and see the dogs 
+- I want to see the dogs available for adoption
+
+## Design 
+
+### Prototype
+
+Prototype was created using [Figma](https://www.figma.com/)
+
+<img src="./documentation/readme-images/prototype-index.JPG" alt="Website Prototype" width="30%" height="30%">
+<img src="./documentation/readme-images/prototype-adoption.JPG" alt="Website Prototype" width="30%" height="30%">
+<img src="./documentation/readme-images/prototype-book.JPG" alt="Website Prototype" width="30%" height="30%">
+
+### Typography 
+The fonts used are from [Google Fonts](https://fonts.google.com/).
+
+#### Primary Font:
+[Inter](https://fonts.google.com/specimen/Inter?query=inter)
+
+### Colour Palette 
+
+<img src="./readme-assets/images/colour-palette.png" alt="Colour Palette" width="40%" height="40%">
+
+Colour palette was generated using [Coolors](https://coolors.co/).
+
+#### Primary Colour:
+#87957C
+
+#### Complimentary Colours:
+#F2CDC3
+#BEA6A0
+#3B3D22
+#56423D
+
+#### White Colour: 
+Alice Blue
+
+## Features
 
 #### Navigation Bar
 

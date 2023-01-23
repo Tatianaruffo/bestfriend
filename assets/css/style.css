@@ -241,7 +241,7 @@ img {
     background-color: #87957C;
     color: #3B3D22;
     height: 100%;
-    width: 70%;
+    width: 60%;
     position: relative;
 }
 
@@ -284,7 +284,7 @@ img {
 
 .about-us-img {
     height: 560px;
-    width: 30%;
+    width: 40%;
     text-align: right;
     display: flex;
     object-fit: cover;
