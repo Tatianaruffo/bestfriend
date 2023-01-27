@@ -11,35 +11,32 @@
     <title>Best Friend</title>
 </head>
 <body>
-    <header>
-        <div id="parent-header">
-            <div class="child-logo">
-                <a href="index.html" aria-label="Click here to go to the Home Page">
-                    <h1 id="logo">Best <br> Friend.ie</h1>
-                </a>
-            </div>
-            <div class="child-links">
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" aria-label="Click here to go to the Home Page">Home</a>
-                        </li>
-                        <li>
-                            <a href="index.html#happy-stories" aria-label="Click here to go to Happy Stories">Happy Stories</a>
-                        </li>
-                        <li>
-                            <a href="index.html#about-us" aria-label="Click here to go to About Us">About us</a>
-                        </li>
-                        <li>
-                            <a href="form.html" class="active" aria-label="Click here to go to Book a Visit">Book a Visit</a>
-                        </li>
-                        <li> 
-                            <a href="adopt.html" aria-label="Click here to go to the Adoption Page">Adopt</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>    
+    <header class="header">
+        <!-- Logo -->
+        <a href="index.html" class="logo" aria-label="Click here to go to the Home Page">Best <br> Friend.ie</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="index.html" class="active" aria-label="Click here to go to the Home Page">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#happy-stories" aria-label="Click here to go to Happy Stories">Happy Stories</a>
+                </li>
+                <li>
+                    <a href="index.html#about-us" aria-label="Click here to go to About Us">About us</a>
+                </li>
+                <li>
+                    <a href="form.html" aria-label="Click here to go to Book a Visit">Book a Visit</a>
+                </li>
+                <li> 
+                    <a href="adopt.html" aria-label="Click here to go to the Adoption Page">Adopt</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section class="form-section">
         <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
@@ -71,7 +68,7 @@
             <br>
             <br>
             <label for="about-you" id="about-you">Briefly describe about you and any pets you already have</label>
-            <textarea name="about" class="text-input-about" rows="10" cols="30"></textarea>
+            <textarea name="about-you" class="text-input-about" rows="10" cols="30"></textarea>
             
             <input class="join-button" type="submit" value="Meet your Best Friend!">
             

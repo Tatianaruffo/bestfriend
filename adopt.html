@@ -11,36 +11,32 @@
     <title>Best Friend</title>
 </head>
 <body>
-    <!--Header and nav-->
-    <header>
-        <div id="parent-header">
-            <div class="child-logo">
-                <a href="index.html" aria-label="Click here to go to the Home Page">
-                    <h1 id="logo">Best <br> Friend.ie</h1>
-                </a>
-            </div>
-            <div class="child-links">
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" aria-label="Click here to go to the Home Page">Home</a>
-                        </li>
-                        <li>
-                            <a href="index.html#happy-stories" aria-label="Click here to go to Happy Stories">Happy Stories</a>
-                        </li>
-                        <li>
-                            <a href="index.html#about-us" aria-label="Click here to go to About Us">About us</a>
-                        </li>
-                        <li>
-                            <a href="form.html" aria-label="Click here to go to Book a Visit">Book a Visit</a>
-                        </li>
-                        <li> 
-                            <a href="adopt.html" class="active" aria-label="Click here to go to the Adoption Page">Adopt</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>    
+    <header class="header">
+        <!-- Logo -->
+        <a href="index.html" class="logo" aria-label="Click here to go to the Home Page">Best <br> Friend.ie</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="index.html" class="active" aria-label="Click here to go to the Home Page">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#happy-stories" aria-label="Click here to go to Happy Stories">Happy Stories</a>
+                </li>
+                <li>
+                    <a href="index.html#about-us" aria-label="Click here to go to About Us">About us</a>
+                </li>
+                <li>
+                    <a href="form.html" aria-label="Click here to go to Book a Visit">Book a Visit</a>
+                </li>
+                <li> 
+                    <a href="adopt.html" aria-label="Click here to go to the Adoption Page">Adopt</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section id="adoption">
         <div class="adoption-box" id="meghan">
@@ -125,13 +121,11 @@
                 <h3>Ready for Adoption</h3>
                 <br>
                 <p>
-                    5 months old Stoney was rescued right after birth.
-                    Stoney is very good with dogs, cats, and kids. He loves to play, and is very intelligent. He is also very cuddly and loves his humans.
-                    Stoney is current on vaccination, and will be neutered and microchipped before traveling.
-                    He is very smart and knows how to use puppy pads.
+                    Fudge, our stunning, young Springer X is now available for adoption. Although very shy initially, Fudge has the sweetest personality once he has his bearings. He adores other dogs and we are looking for a home with a resident dog that can help build his confidence. 
+                    He doesn't know how to walk on the lead yet nor does he really understand the joy to be had from chasing a ball so a secure garden.
                 </p>    
             </div>    
-            <form action="form.html">
+            <form action="form.html" class="button-adopt">
                 <button class="book-button" type="submit" aria-label="Click here to book a visit Page">Book a Visit<i class="fa-regular fa-paw-simple"></i></button>
             </form>
         </div>
