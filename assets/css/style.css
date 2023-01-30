@@ -149,10 +149,6 @@ ul {
     width: 60%;
     height: 100%;
     text-align: right;
-}
-
-img {
-    max-width: 100%;
     object-fit: cover;
 }
 
@@ -327,6 +323,8 @@ img {
 
 .about-us-img>img {
     border: 20px solid #BEA6A0;
+    width: 90%;
+    height: 90%;
 }
 
 
@@ -585,13 +583,27 @@ img {
     color: #56423D;
 }
 
-
+/* For medium size screens */
 
 @media screen and (max-width: 1400px) {
     #about-us-container {
         flex-direction: column;
     }
+    .about-us-img>img {
+        width: 90%;
+    }
 }
+
+@media screen and (max-width: 1200px) {
+    .cover-text {
+        width: 50%;
+    }
+
+    .image-container>img {
+        width: 50%;
+    }
+}
+
 /* For small screens size */
 
 @media screen and (max-width: 900px) {
@@ -618,6 +630,16 @@ img {
     .image-container {
         flex-direction: column;
     }
+
+    .cover-text {
+        width: 100%;
+        background: linear-gradient(rgba(135, 149, 124, 0.6), rgba(135, 149, 124, 0.6)), url(../images/hero2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    /* .image-container>img {
+        width: 100%;
+    } */
 
 }  
 
