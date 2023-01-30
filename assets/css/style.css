@@ -130,86 +130,9 @@ ul {
     top:0;
 }
 
-/* #parent-header {
-    display: grid;
-    grid-template-areas: 'left right';
-    grid-column: 2;
-    width: 100%;
-    height: 8%;
-    min-height: 100px;
-    background-color: #F2CDC3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
-}
-
-.child-logo {
-    grid-column: 1;
-    grid-area: left;
-    margin-top: 2%;
-}
-
-.child-links {
-    grid-column: 2;
-    grid-area: right;
-    margin-top: 6%;
-}
-
-#logo {
-    float: left;
-    text-decoration: none;
-    text-align: left;
-    margin-left: 32px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#menu {
-    float: right;
-}
-
-#menu>li {
-    list-style-type: none;
-    float: left;
-    margin-right: 20px;
-}
-
-h1, h2 {
-    font-family: Inter, sans-serif;
-    letter-spacing: 2px;
-    color: #3B3D22;
-}
-
-/* navigation links */
-
-/* .child-links {
-    grid-column: 2;
-    grid-area: right;
-    margin-top: 4%;
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    margin-right: 32px;
-}
-
-#menu li {
-    list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    color: #000000;
-    font-style: italic;
-}
-
 .active {
     border-bottom: 1px solid #87957C;
-} */ 
+} 
 
 /* first section with main image/text and button to adopt page*/
 
@@ -580,10 +503,6 @@ img {
     overflow: hidden;
 }
 
-/* .button-adopt {
-    margin: 20% 0 10% 0
-} */
-
 .book-button {
     background-color: #56423D;
     color: aliceblue;
@@ -610,14 +529,13 @@ img {
 }
 
 .signup-form {
-    margin: 100px 10% 0 0;
+    margin-top: 10rem;
     color: #56423D;
     font-weight: 700;
     background-color: rgba(190, 166, 160, 0.8);
-    max-width: fit-content;
-    position: absolute;
-    left: 50%;
-    padding: 30px;
+    max-width: 50%;
+    float: right;
+    padding: 2rem;
 }
 
 .signup-form > h2 {
@@ -667,9 +585,13 @@ img {
     color: #56423D;
 }
 
-/* For medium screens size */
+/* For small screens size */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
+    .signup-form {
+        max-width: fit-content;
+    }
+
     #adoption {
         flex-direction: column;
     }
@@ -690,9 +612,10 @@ img {
         flex-direction: column-reverse;
     }
 
-}
+}    
 
-/* For small screen size */
+
+/* For desktop screen size menu */
 
 @media (min-width: 900px) {
     .nav{
@@ -713,6 +636,6 @@ img {
 
     .hamb{
         display: none;
-    }
+    }   
 }
   
