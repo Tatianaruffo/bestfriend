@@ -316,18 +316,20 @@ ul {
 
 .second-paragraph>h3 {
     text-transform: uppercase;
-    color: #F2CDC3;
+    color: aliceblue;
+    background-color: #BEA6A0;
     letter-spacing: 0.34em;
     font-size: 18px;
     font-weight: 600;
-    margin-left: 2.5%;
+    padding-left: 4%;
 }
 
 .second-paragraph>p {
     font-weight: 600;
     font-size: 18px;
     color: #56423D;
-    margin: 1% 2.5%;
+    margin-top: 1%;
+    padding-left: 4%;
 }
 
 .about-us-img {
@@ -336,7 +338,7 @@ ul {
 }
 
 .about-us-img>img {
-    border: 20px solid #BEA6A0;
+    border: 15px solid #BEA6A0;
     width: 90%;
     height: 90%;
 }
@@ -382,6 +384,14 @@ ul {
 
 .contact-footer p {
     margin-top: 2%;
+}
+
+.contacts {
+    color: #3a3a3a;
+}
+
+.contacts:hover {
+    color: blue;
 }
 
 .socialmedia-footer {
@@ -661,8 +671,18 @@ ul {
         background-size: cover;
     }
 
+    .cover-text>h3 {
+        padding-right: 50%;
+    }
+
 
 }  
+
+@media screen and (max-width: 685px) {  
+    .cover-text>h3 {
+        padding-right: 40%;
+    }
+}
 
 /* For smaller screen sizes */
 
@@ -691,12 +711,12 @@ ul {
         font-size: 450%;
     }
 
-    .cover-text>h3 {
-        color: aliceblue;
-    }
-
     .nav {
         height: 60%;
+    }
+
+    .cover-text>h3 {
+        padding-right: 20%;
     }
 }
 
