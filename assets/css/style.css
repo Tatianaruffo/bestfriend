@@ -613,6 +613,16 @@ ul {
     color: #56423D;
 }
 
+/* Thank you page */
+
+#thankyou {
+    background: linear-gradient(rgba(135, 149, 124, 0.6), rgba(135, 149, 124, 0.6)), url(../images/thankyou.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+
+
 /* For medium size screens */
 
 @media screen and (max-width: 1400px) {
@@ -646,6 +656,9 @@ ul {
     }
     .adoption-box {
         width: 80%;
+        padding: 3%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .signup-form {
