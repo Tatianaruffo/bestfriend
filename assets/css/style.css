@@ -161,7 +161,7 @@ ul {
     width: 40%;
 }
 
-.cover-text>h2 {
+.cover-text>h1 {
     font-size: 500%;
     font-weight: 700;
     margin-left: 30px;
@@ -715,7 +715,7 @@ ul {
 
 }
 
-@media screen and (max-width: 460px) {  
+@media screen and (max-width: 492px) {  
     .image-container {
         height: 700px;
     }
@@ -725,7 +725,7 @@ ul {
     }
 
     .nav {
-        height: 60%;
+        height: 100%;
     }
 
     .cover-text>h3 {
