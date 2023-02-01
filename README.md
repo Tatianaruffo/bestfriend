@@ -1,19 +1,19 @@
-<h1 align="center">Best Friend.ie</h1>
+<h1>Best Friend.ie</h1>
 
-[View the live project here]
-
-## Responsice Mockup
+View the live project [here](https://tatianaruffo.github.io/bestfriend/)
 
 Best Friend.ie is a Dog rescue shelter webpage to find new homes for rescued dogs in Ireland. The site describes the personality of each dog to help people looking for a new dog friend to connect.
 
 The website has 3 pages, the main one helps the user to trust the shelter telling about the story of the shelter and happy stories of previous adoptions, the second page is a list of dogs available for adoption, you can read about their story and personalities. The last page is dedicated for the user to book a visit to the shelter.
 
+![Mockup](documentation/readme-images/mockup.png)
+
+
 ## Contents
 
-- [User Experience](#user-experience)
-  - [Users Stories](#users-stories)
-     - [Site Owner Goals](#site-owner-goals)
-     - [Users Goals](#users-goals)
+-[Users Stories](#users-stories)
+   - [Site Owner Goals](#site-owner-goals)
+   - [Users Goals](#users-goals)
 - [Design](#design)
   - [Prototype](#prototype)
   - [Typepgraphy](#typography)
@@ -23,10 +23,13 @@ The website has 3 pages, the main one helps the user to trust the shelter tellin
     - [Dark Colour](#dark-colour) 
     - [White Colour](#white-colour) 
 - [Features](#features)
-  - [Header](#header)
-  - [About Section](#about-section)
-  - [Portfolio Section](#portfolio-section)
-  - [Contact Section](#contact-section)
+  - [Navigation Bar](#navigation-bar)
+  - [Landing Page](#landing-page)
+    -[First Section](#first-section)
+    -[Happy Stories](#happy-stories)
+    -[About us](#about-us)
+  - [Book a Visit](#book-a-visit)
+  - [Adopt](#adopt)
   - [Footer](#footer)
 - [Testing](#testing)
   - [Browsers](#browsers)
@@ -39,26 +42,25 @@ The website has 3 pages, the main one helps the user to trust the shelter tellin
   - [Code](#code)
   - [Resources](#resources)
 
-## User Experience
 
 # Users Stories
 
-#### Site Owner Goals
+### Site Owner Goals
 - I want users to easily navigate the website
 - I want user to book visits to the shelter 
 - I want users to see our history 
 - I want users to see happy adoptions stories
 - I want the user to connect with a dog through their stories
 
-#### Users Goals
+### Users Goals
 - I want to learn about the shelter
 - I want to know about previous adoptions stories
 - I want to visit the shelter and see the dogs 
 - I want to see the dogs available for adoption
 
-## Design 
+# Design 
 
-### Prototype
+## Prototype
 
 Prototype was created using [Figma](https://www.figma.com/)
 
@@ -66,51 +68,66 @@ Prototype was created using [Figma](https://www.figma.com/)
 <img src="./documentation/readme-images/prototype-adoption.JPG" alt="Website Prototype" width="30%" height="30%">
 <img src="./documentation/readme-images/prototype-book.JPG" alt="Website Prototype" width="30%" height="30%">
 
-### Typography 
+## Typography 
 The fonts used are from [Google Fonts](https://fonts.google.com/).
 
-#### Primary Font:
+### Primary Font:
 [Inter](https://fonts.google.com/specimen/Inter?query=inter)
 
-### Colour Palette 
-
-<img src="./documentation/readme-images/colour-palette.JPG" alt="Colour Palette" width="40%" height="40%">
+## Colour Palette 
 
 Colour palette was generated using [ColorSpace](https://mycolor.space/).
 
-#### Primary Colour:
-#87957C
+### Primary Colour:
+#B2BBAF
 
-#### Complimentary Colours:
+### Complimentary Colours:
 #F2CDC3
 #BEA6A0
 #3B3D22
 #56423D
 
-#### White Colour: 
+### White Colour: 
 Alice Blue
 
-## Features
+# Features
 
-#### Navigation Bar
+## Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+* Desktop and laptop Navigation Menu
+  * Contains links to the Home, Happy Stories, About Us, Book a Visit and Adopt pages.
+  * Is identical in each page to allow for easy navigation.
+  * Will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-#### The landing page image
+![Nav Menu](documentation/readme-images/navbar.JPG)
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+* Tablet and mobile Navigation Menu
+  * Hamburger menu with a dropdown options to the Home, Happy Stories, About Us, Book a Visit and Adopt pages.
 
-#### Happy Stories
+![Nav Menu](documentation/readme-images/navbar-responsive.JPG)
+
+## Landing page 
+
+* The landing includes 3 sections:
+  * First Section with CTA 
+  * Happy Stories
+  * About Us
+
+### First Section
+
+* Contains a hero image and a CTA button, is responsive for smaller screens 
+
+![First Section](documentation/readme-images/First-section.JPG)
+
+![Nav Menu](documentation/readme-images/first-section-responsive.JPG)
+
+### Happy Stories
 
 The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
 This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
 Club Ethos
 
-#### About us 
+### About us 
 
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
