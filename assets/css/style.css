@@ -621,6 +621,20 @@ ul {
     width: 100%;
 }
 
+/* 404 page */
+
+.text-center {
+    text-align: center;
+}
+
+.return-to-home a {
+    font-size: 2rem;
+    color: #4B3A35;
+}
+
+.return-to-home a:hover {
+    color: #87957C;
+}
 
 /* For medium size screens */
 

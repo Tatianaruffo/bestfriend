@@ -189,24 +189,40 @@ Alice Blue
 
 - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](documentation/readme-images/HTMLchecker.JPG)
+![HTML Validator Results](documentation/readme-images/HTMLchecker.JPG)
 
 #### CSS
-No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org)
+
+[CSS Validator Results](documentation/readme-images/CSSvalidator.JPG)
 
 #### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+### Version Control
+
+The site was created using Gitpod code editor and pushed to github to the remote repository ‘bestfriend’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed. <br>
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step. <br>
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://tatianaruffo.github.io/bestfriend/
 
 ## Credits
+
 https://refine.dev/blog/css-grid-vs-flexbox/
 
 https://michmattera.github.io/newline-alebrije/ -Grid/Flex
@@ -215,17 +231,11 @@ https://www.w3schools.com/html/html_form_input_types.asp - Form
 
 https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image - layer background
 
-
-## Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-
 ## Media
 Hero image - Victor Grabarczyk Unsplash https://unsplash.com/photos/N04FIfHhv_k
 
 Form Image - Fabian Gieske - Unsplash - https://unsplash.com/photos/AXtlIC-eHjQ
 
-Adoption photos
+* Adoption photos
 
 Fudge - Jamie Street - Unsplash https://unsplash.com/photos/UtrE5DcgEyg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
