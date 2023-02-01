@@ -173,11 +173,15 @@ Alice Blue
 
 ![Testing Form](documentation/readme-images/lighthouse-form.JPG)
 
+![Testing Adopt](documentation/readme-images/lighthouse-adopt.JPG)
+
 ### Mobile
 
 ![Testing Mobile Landing Page](documentation/readme-images/lighthouse-mobile-landingpage.JPG)
 
 ![Testing Mobile Form](documentation/readme-images/lighthouse-mobile-form.JPG)
+
+![Testing Adopt](documentation/readme-images/lighthouse-mobile-adopt.JPG)
 
 ### Validator Testing
 
