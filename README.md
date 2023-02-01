@@ -11,7 +11,7 @@ The website has 3 pages, the main one helps the user to trust the shelter tellin
 
 ## Contents
 
--[Users Stories](#users-stories)
+- [Users Stories](#users-stories)
    - [Site Owner Goals](#site-owner-goals)
    - [Users Goals](#users-goals)
 - [Design](#design)
@@ -167,9 +167,17 @@ Alice Blue
 
 ## Lighthouse Testing
 
+### Desktop
+
 ![Testing Landing Page](documentation/readme-images/lighthouse-landingpage.JPG)
 
 ![Testing Form](documentation/readme-images/lighthouse-form.JPG)
+
+### Mobile
+
+![Testing Mobile Landing Page](documentation/readme-images/lighthouse-mobile-landingpage.JPG)
+
+![Testing Mobile Form](documentation/readme-images/lighthouse-mobile-form.JPG)
 
 ### Validator Testing
 
