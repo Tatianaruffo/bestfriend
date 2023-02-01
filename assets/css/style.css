@@ -474,7 +474,7 @@ ul {
 }
 
 #meghan {
-    background-image: url(../images/meghan.jpg);
+    background-image: url(../images/meghan.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -483,7 +483,7 @@ ul {
 }
 
 #leo {
-    background-image: url(../images/leo.jpg);
+    background-image: url(../images/leo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -492,7 +492,7 @@ ul {
 }
 
 #suzy {
-    background-image: url(../images/suzy.jpg);
+    background-image: url(../images/suzy.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -501,7 +501,7 @@ ul {
 }
 
 #daphne {
-    background-image: url(../images/daphne.jpg);
+    background-image: url(../images/daphne.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -510,7 +510,7 @@ ul {
 }
 
 #stoney {
-    background-image: url(../images/stoney.jpg);
+    background-image: url(../images/stoney.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -519,7 +519,7 @@ ul {
 }
 
 #fudge {
-    background-image: url(../images/fudge.jpg);
+    background-image: url(../images/fudge.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -712,7 +712,6 @@ ul {
         height: 50%;
         margin: 0;
     }
-
 }
 
 @media screen and (max-width: 492px) {  
