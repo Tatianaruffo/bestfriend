@@ -119,52 +119,57 @@ Alice Blue
 
 ![First Section](documentation/readme-images/First-section.JPG)
 
-![Nav Menu](documentation/readme-images/first-section-responsive.JPG)
+![First Section Responsive](documentation/readme-images/first-section-responsive.JPG)
 
 ### Happy Stories
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+* Happy Stories Section will allow the user to see the benefits of adopting a Dog through true stories from previous adopters
+
+![Happy Stories](documentation/readme-images/happystories-image.JPG)
+
 
 ### About us 
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+* This Section allows the user to understand the story and purpose of the shelter
 
-#### The Footer
+![About us](documentation/readme-images/aboutus-image.JPG)
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+## Book a visit page
 
-#### Adoption list
+* This Section contains a form where the user can book a visit to the shelter
+  * The user can choose the day of the week, period and time range to visit.
+  * On successful submission of the booking form, the user will be navigated to thankyou.html displaying a thank you message.
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+![Book a Visit](documentation/readme-images/form-image.jpg)
 
-#### The Book a Visit Page
+## Adoption page
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+* This page allows the user to see the dogs that are ready for adoption.
+  * When the user hovers the mouse on each dog picture it will show the story and personality of the dog.
+  * Each picture contains a CTA button that leads to the book a visit page, allowing the user to meet the dog personally 
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Adopt](documentation/readme-images/adopt-image.JPG)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## The Footer
 
-### Features Left to Implement
-Another feature idea
+* The footer section includes links to the relevant social media sites for Best Friend and contact details. 
+ * The social media links will open to a new tab to allow easy navigation for the user.
+ * The email and phone are hyperlinks for easy contact for the user
 
-## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+![Footer](documentation/readme-images/footer.JPG) 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Features Left to Implement
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+* The About us section should be a separate page telling the user more about the shelter to improve trustworthy.
+* A page with tips for first time pet owners 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+# Testing
+
+## Lighthouse Testing
+
+![Testing Landing Page](documentation/readme-images/lighthouse-landingpage.JPG)
+
+![Testing Form](documentation/readme-images/lighthouse-form.JPG)
 
 ### Validator Testing
 
