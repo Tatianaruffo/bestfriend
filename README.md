@@ -183,10 +183,13 @@ Alice Blue
 
 ![Testing Adopt](documentation/readme-images/lighthouse-mobile-adopt.JPG)
 
-### Validator Testing
+## Validator Testing
 
-#### HTML
-No errors were returned when passing through the official W3C validator
+### HTML
+
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Contact HTML Validator Results](documentation/readme-images/HTMLchecker.JPG)
 
 #### CSS
 No errors were found when passing through the official (Jigsaw) validator
