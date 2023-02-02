@@ -374,7 +374,7 @@ Actual:
 
 Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
-**Adopt CTA Page**
+**Adopt CTA**
 
 Testing was performed on the Book a Visit button on each dog picture to ensure behaviour was as expected.
 
@@ -410,7 +410,15 @@ Website behaved as expected and redirected to form.html.
 
 - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![HTML Validator Results](documentation/readme-images/HTMLchecker.JPG)
+![HTML Validator Results Home Page](documentation/readme-images/HTMLchecker.JPG)
+
+![HTML Validator Results Adopt Page](documentation/readme-images/htmlvalidator-adopt.JPG)
+
+![HTML Validator Results Form Page](documentation/readme-images/htmlvalidator-form.JPG)
+
+![HTML Validator Results Thank You Page](documentation/readme-images/htmlvalidator-thankyou.JPG)
+
+![HTML Validator Results 404 Page](documentation/readme-images/htmlvalidator-404.JPG)
 
 #### CSS
 - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org)
