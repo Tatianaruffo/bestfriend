@@ -33,11 +33,14 @@ The website has 3 pages, the main one helps the user to trust the shelter tellin
   - [Footer](#footer)
 - [Testing](#testing)
   - [Responsiveness](#responsiveness)
+  - [Functional Testing](#functionaltesting)
   - [Lighthouse](#lighthouse)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
+- [Bugs](#bugs)
+  - [Unfixed Bugs](#unfixedbugs)
 - [Credits](#credits)
   - [Code](#code)
   - [Resources](#resources)
@@ -166,6 +169,26 @@ Alice Blue
 # Testing
 
 ## Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 400px and upwards on Chrome, Edge and Firefox.
+
+Steps to test:
+
+1. Open browser and navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 400px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
+Actual:
+
+Website behaved as expected 
 
 ## Functional Testing
 
@@ -351,6 +374,17 @@ Actual:
 
 Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
+**Adopt CTA Page**
+
+Testing was performed on the Book a Visit button on each dog picture to ensure behaviour was as expected.
+
+Expected:
+
+Button redirected to form.html page.
+
+Actual:
+
+Website behaved as expected and redirected to form.html.
 
 ## Lighthouse Testing
 
@@ -383,7 +417,8 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 [CSS Validator Results](documentation/readme-images/CSSvalidator.JPG)
 
-#### Unfixed Bugs
+## Bugs
+### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
@@ -410,6 +445,10 @@ The live link can be found here - https://tatianaruffo.github.io/bestfriend/
 
 ## Credits
 
+### Code
+
+https://www.w3schools.com/
+
 https://refine.dev/blog/css-grid-vs-flexbox/
 
 https://michmattera.github.io/newline-alebrije/ -Grid/Flex
@@ -418,11 +457,12 @@ https://www.w3schools.com/html/html_form_input_types.asp - Form
 
 https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image - layer background
 
-## Media
-Hero image - Victor Grabarczyk Unsplash https://unsplash.com/photos/N04FIfHhv_k
+https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/ - responsive menu
 
-Form Image - Fabian Gieske - Unsplash - https://unsplash.com/photos/AXtlIC-eHjQ
+### Resources 
 
-* Adoption photos
+_Images_  
 
-Fudge - Jamie Street - Unsplash https://unsplash.com/photos/UtrE5DcgEyg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Unsplash - https://unsplash.com/
+The Noun Project - https://thenounproject.com/
+Pixabay - https://pixabay.com/
