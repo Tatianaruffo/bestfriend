@@ -32,7 +32,7 @@ The website has 3 pages, the main one helps the user to trust the shelter tellin
   - [Adopt](#adopt)
   - [Footer](#footer)
 - [Testing](#testing)
-  - [Browsers](#browsers)
+  - [Responsiveness](#responsiveness)
   - [Lighthouse](#lighthouse)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
@@ -164,6 +164,193 @@ Alice Blue
 * A page with tips for first time pet owners 
 
 # Testing
+
+## Responsiveness
+
+## Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load            |
+| --------------- | ---------------         |
+| Home            | index.html              |
+| Happy Stories   | index.html#happystories |
+| About us        | index.html#aboutus      |
+| Book a Visit    | form.html               |
+| Adopt           | adopt.html
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname: Mary Murphy
+   - Email: mary.murphy@test.com
+   - Phone number: 080123456
+   - Preferred meeting Date and Time: Monday/ 9am to 11am
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+4. User should be redirected to thankyou.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to thankyou.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to thankyou.html.
+
+_Scenario Two - Missing Required Field Name and Surname_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname:
+   - Email: mary.murphy@test.com
+   - Phone number: 080123456
+   - Preferred meeting Date and Time: Monday/ 9am to 11am
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Three - Missing Required Field Email_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname: Mary Murphy
+   - Email: 
+   - Phone number: 080123456
+   - Preferred meeting Date and Time: Monday/ 9am to 11am
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Four - Missing Required Field Phone number_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname: Mary Murphy
+   - Email: marymurphy@test.com
+   - Phone number: 
+   - Preferred meeting Date and Time: Monday/ 9am to 11am
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Six - Incorrect email format_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname: Mary Murphy
+   - Email: marymurphy.test.com
+   - Phone number: 080123456
+   - Preferred meeting Date and Time: Monday/ 9am to 11am
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Seven - Missing Required Field Date and Time_
+
+Steps to test:
+
+1. Navigate to [Best Friend.ie - Book a Visit](https://tatianaruffo.github.io/bestfriend/form.html)
+2. Scroll down to the form and input the following data:
+   - Name and Surname: Mary Murphy
+   - Email: marymurphy@test.com
+   - Phone number: 080123456
+   - Preferred meeting Date and Time:
+   - Briefly describe about you and any pet you already have: This is a test.
+3. Click Meet your best friend
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+
+Each item opened a new tab when clicked as expected.
+
+**Footer Contact Information**
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Best Friend.ie - Home Page](https://tatianaruffo.github.io/bestfriend/index.html)
+2. Click the phone number in the footer (+353 087 012 0321)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with a list of options to call.
+
+_Steps to test Email Link_
+
+1. Navigate to [Best Friend.ie - Home Page](https://tatianaruffo.github.io/bestfriend/index.html)
+2. Click the email address in the footer (info@bestfriend.ie)
+
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
 
 ## Lighthouse Testing
 
