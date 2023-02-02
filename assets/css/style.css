@@ -659,16 +659,6 @@ ul {
 
 /* For small screens size */
 
-@media(hover: hover) and (pointer: fine) {
-    .backcolor-text:hover {
-        background-color: rgba(242, 205, 195, 0.9);
-        height: fit-content;
-        border-radius: 2%;
-        opacity: 1;
-    }
-}
-
-
 @media screen and (max-width: 900px) {
     .signup-form {
         max-width: fit-content;
@@ -682,6 +672,13 @@ ul {
         padding: 3%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .backcolor-text:hover, .backcolor-text:active {
+        background-color: rgba(242, 205, 195, 0.9);
+        height: fit-content;
+        border-radius: 2%;
+        opacity: 1;
     }
     
     .signup-form {
