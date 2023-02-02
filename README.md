@@ -418,8 +418,14 @@ Website behaved as expected and redirected to form.html.
 [CSS Validator Results](documentation/readme-images/CSSvalidator.JPG)
 
 ## Bugs
+
+* I had many bugs with my nav bar and pictures until I could understand the position property.
+* I was trying to adjust the form page to small screen so I managed to do it by changing max-width to fit-content
+* Centering images to the box was very hard until I found an article from https://css-tricks.com/ 
+
 ### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+Font awesome icons wouldn't show, besides the social media ones, I tried everything, mentor, google, font awesome troubleshooting. I'll keep trying.
 
 ## Deployment
 
@@ -449,6 +455,8 @@ The live link can be found here - https://tatianaruffo.github.io/bestfriend/
 
 https://www.w3schools.com/
 
+https://css-tricks.com/
+
 https://refine.dev/blog/css-grid-vs-flexbox/
 
 https://michmattera.github.io/newline-alebrije/ -Grid/Flex
@@ -459,10 +467,12 @@ https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-ba
 
 https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/ - responsive menu
 
+https://github.com/Gareth-McGirr/tacos-travels/blob/main/README.md?plain=1 
+
 ### Resources 
 
 _Images_  
 
-Unsplash - https://unsplash.com/
-The Noun Project - https://thenounproject.com/
-Pixabay - https://pixabay.com/
+Unsplash - https://unsplash.com/ <br>
+The Noun Project - https://thenounproject.com/ <br>
+Pixabay - https://pixabay.com/ <br>
